@@ -1,0 +1,39 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container div:first-child {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 50px;
+    flex-direction: column;
+}
+
+.color-btn {
+    padding: 10px 10px;
+    background: #00005a;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.generate-btn {
+    padding: 10px 10px;
+    background: rgb(21, 103, 17);
+    color: #fff;
+    font-weight: 800;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
