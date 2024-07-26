@@ -6,7 +6,9 @@ import Colorgenerator from './components/colorgenerator/Colorgenerator';
 import Loadmore from './components/loadmore/Loadmore';
 import menus from './components/navmenu/data';
 import Navmenu from './components/navmenu/Navmenu';
+import Qrcode from './components/qrcode/Qrcode';
 import Star from './components/star/star';
+import Themeswitch from './components/themeswitch/Themeswitch';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Carousel url={'https://picsum.photos/v2/list'} page={1} limit={10}/>
       <Loadmore />
       <Navmenu menus={menus}/>
+      <Qrcode />
+      <Themeswitch />
     </div>
   );
 }
