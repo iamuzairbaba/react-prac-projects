@@ -1,0 +1,19 @@
+.header-container {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: burlywood;
+}
+.scrollindicator {
+    height: 10px;
+    width: 100%;
+    background-color:aqua ;
+}
+
+.percent{
+    background-color: brown;
+    height: 10px;
+    width: 0%;
+}

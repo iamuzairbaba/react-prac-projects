@@ -1,0 +1,43 @@
+.github-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    height: auto;
+    width: 600px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.btn-container {
+    padding: 20px;
+}
+ .btn-container input {
+    font-size: 18px;
+    padding: 8px;
+    margin-right: 10px;
+ }
+
+ .profile-container {
+    background-color: azure;
+    height: 100%;
+    width: 100%;
+ }
+
+ .profile-container img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+ }
+
+ .profile-name {
+    font-size: 30px;
+    font-weight: 500;
+ }
+
+ .profile-bio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+ }
