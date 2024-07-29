@@ -4,6 +4,8 @@ import Accordion from './components/accordion/Accordion';
 import Carousel from './components/carousel/Carousel';
 import Colorgenerator from './components/colorgenerator/Colorgenerator';
 import DynamicTabs from './components/dynamictabs/DynamicTabs';
+import FeatureFlagsGlobalState from './components/featureflags/context';
+import FeatureFlag from './components/featureflags/FeatureFlag';
 import Github from './components/github/github';
 import Loadmore from './components/loadmore/Loadmore';
 import Modaltest from './components/modal/Modaltest';
@@ -19,7 +21,7 @@ import TicTacToe from './components/tictactoe/TicTacToe';
 function App() {
   return (
     <div className="App">
-      <Accordion />
+      {/* <Accordion />
       <Colorgenerator />
       <Star />
       <Carousel url={'https://picsum.photos/v2/list'} page={1} limit={10}/>
@@ -32,7 +34,10 @@ function App() {
       <Modaltest />
       <Github />
       <SearchAutoComplete />
-      <TicTacToe />
+      <TicTacToe /> */}
+      <FeatureFlagsGlobalState>
+        <FeatureFlag />
+      </FeatureFlagsGlobalState>
     </div>
   );
 }
