@@ -11,8 +11,10 @@ import menus from './components/navmenu/data';
 import Navmenu from './components/navmenu/Navmenu';
 import Qrcode from './components/qrcode/Qrcode';
 import ScrollIndicator from './components/scrollindicator/ScrollIndicator';
+import SearchAutoComplete from './components/seachautocomplete/SearchAutoComplete';
 import Star from './components/star/star';
 import Themeswitch from './components/themeswitch/Themeswitch';
+import TicTacToe from './components/tictactoe/TicTacToe';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       <DynamicTabs />
       <Modaltest />
       <Github />
+      <SearchAutoComplete />
+      <TicTacToe />
     </div>
   );
 }
