@@ -12,6 +12,8 @@ import menus from "./components/navmenu/data";
 import Navmenu from "./components/navmenu/Navmenu";
 import Qrcode from "./components/qrcode/Qrcode";
 import ScrollIndicator from "./components/scrollindicator/ScrollIndicator";
+import ScrollToTopOrBottom from "./components/scrolltotoporbottom/ScrollToTopOrBottom";
+import ScrolllUsingRef from "./components/scrollusingref/ScrolllUsingRef";
 import SearchAutoComplete from "./components/seachautocomplete/SearchAutoComplete";
 import Star from "./components/star/star";
 import Themeswitch from "./components/themeswitch/Themeswitch";
@@ -40,9 +42,11 @@ function App() {
       <FeatureFlagsGlobalState>
         <FeatureFlag />
       </FeatureFlagsGlobalState>
-      <Test />
+      {/* <Test /> */}
       <UseOutsideClickTest />
       <WindowResizeTest />
+      {/* <ScrollToTopOrBottom /> */}
+      <ScrolllUsingRef />
     </div>
   );
 }
