@@ -21,6 +21,7 @@ import TicTacToe from "./components/tictactoe/TicTacToe";
 import Test from "./components/usefetch/test";
 import UseOutsideClickTest from "./components/useoutsideclick/Test";
 import WindowResizeTest from "./components/usewindowresize/WindowResizeTest";
+import Weather from "./components/weatherapp/weather/Weather";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
       <WindowResizeTest />
       {/* <ScrollToTopOrBottom /> */}
       <ScrolllUsingRef />
+      <Weather />
     </div>
   );
 }
